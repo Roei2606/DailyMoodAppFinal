@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F9EB57A32E3BAB1D006A8D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9EB57842E3BAB1B006A8D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9EB578B2E3BAB1B006A8D91;
+			remoteInfo = DailyMoodAppFinal;
+		};
+		F9EB57AD2E3BAB1D006A8D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9EB57842E3BAB1B006A8D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9EB578B2E3BAB1B006A8D91;
+			remoteInfo = DailyMoodAppFinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9EB578C2E3BAB1B006A8D91 /* DailyMoodAppFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyMoodAppFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9EB57A22E3BAB1D006A8D91 /* DailyMoodAppFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyMoodAppFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9EB57AC2E3BAB1D006A8D91 /* DailyMoodAppFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyMoodAppFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F9EB57B42E3BAB1D006A8D91 /* Exceptions for "DailyMoodAppFinal" folder in "DailyMoodAppFinal" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F9EB578B2E3BAB1B006A8D91 /* DailyMoodAppFinal */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F9EB578E2E3BAB1B006A8D91 /* DailyMoodAppFinal */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F9EB57B42E3BAB1D006A8D91 /* Exceptions for "DailyMoodAppFinal" folder in "DailyMoodAppFinal" target */,
+			);
+			path = DailyMoodAppFinal;
+			sourceTree = "<group>";
+		};
+		F9EB57A52E3BAB1D006A8D91 /* DailyMoodAppFinalTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DailyMoodAppFinalTests;
+			sourceTree = "<group>";
+		};
+		F9EB57AF2E3BAB1D006A8D91 /* DailyMoodAppFinalUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DailyMoodAppFinalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9EB57892E3BAB1B006A8D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EB579F2E3BAB1D006A8D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EB57A92E3BAB1D006A8D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9EB57832E3BAB1B006A8D91 = {
+			isa = PBXGroup;
+			children = (
+				F9EB578E2E3BAB1B006A8D91 /* DailyMoodAppFinal */,
+				F9EB57A52E3BAB1D006A8D91 /* DailyMoodAppFinalTests */,
+				F9EB57AF2E3BAB1D006A8D91 /* DailyMoodAppFinalUITests */,
+				F9EB578D2E3BAB1B006A8D91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9EB578D2E3BAB1B006A8D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB578C2E3BAB1B006A8D91 /* DailyMoodAppFinal.app */,
+				F9EB57A22E3BAB1D006A8D91 /* DailyMoodAppFinalTests.xctest */,
+				F9EB57AC2E3BAB1D006A8D91 /* DailyMoodAppFinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9EB578B2E3BAB1B006A8D91 /* DailyMoodAppFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EB57B52E3BAB1D006A8D91 /* Build configuration list for PBXNativeTarget "DailyMoodAppFinal" */;
+			buildPhases = (
+				F9EB57882E3BAB1B006A8D91 /* Sources */,
+				F9EB57892E3BAB1B006A8D91 /* Frameworks */,
+				F9EB578A2E3BAB1B006A8D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F9EB578E2E3BAB1B006A8D91 /* DailyMoodAppFinal */,
+			);
+			name = DailyMoodAppFinal;
+			packageProductDependencies = (
+			);
+			productName = DailyMoodAppFinal;
+			productReference = F9EB578C2E3BAB1B006A8D91 /* DailyMoodAppFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9EB57A12E3BAB1D006A8D91 /* DailyMoodAppFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EB57BA2E3BAB1D006A8D91 /* Build configuration list for PBXNativeTarget "DailyMoodAppFinalTests" */;
+			buildPhases = (
+				F9EB579E2E3BAB1D006A8D91 /* Sources */,
+				F9EB579F2E3BAB1D006A8D91 /* Frameworks */,
+				F9EB57A02E3BAB1D006A8D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9EB57A42E3BAB1D006A8D91 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F9EB57A52E3BAB1D006A8D91 /* DailyMoodAppFinalTests */,
+			);
+			name = DailyMoodAppFinalTests;
+			packageProductDependencies = (
+			);
+			productName = DailyMoodAppFinalTests;
+			productReference = F9EB57A22E3BAB1D006A8D91 /* DailyMoodAppFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9EB57AB2E3BAB1D006A8D91 /* DailyMoodAppFinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EB57BD2E3BAB1D006A8D91 /* Build configuration list for PBXNativeTarget "DailyMoodAppFinalUITests" */;
+			buildPhases = (
+				F9EB57A82E3BAB1D006A8D91 /* Sources */,
+				F9EB57A92E3BAB1D006A8D91 /* Frameworks */,
+				F9EB57AA2E3BAB1D006A8D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9EB57AE2E3BAB1D006A8D91 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F9EB57AF2E3BAB1D006A8D91 /* DailyMoodAppFinalUITests */,
+			);
+			name = DailyMoodAppFinalUITests;
+			packageProductDependencies = (
+			);
+			productName = DailyMoodAppFinalUITests;
+			productReference = F9EB57AC2E3BAB1D006A8D91 /* DailyMoodAppFinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9EB57842E3BAB1B006A8D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					F9EB578B2E3BAB1B006A8D91 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F9EB57A12E3BAB1D006A8D91 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F9EB578B2E3BAB1B006A8D91;
+					};
+					F9EB57AB2E3BAB1D006A8D91 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F9EB578B2E3BAB1B006A8D91;
+					};
+				};
+			};
+			buildConfigurationList = F9EB57872E3BAB1B006A8D91 /* Build configuration list for PBXProject "DailyMoodAppFinal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9EB57832E3BAB1B006A8D91;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F9EB578D2E3BAB1B006A8D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9EB578B2E3BAB1B006A8D91 /* DailyMoodAppFinal */,
+				F9EB57A12E3BAB1D006A8D91 /* DailyMoodAppFinalTests */,
+				F9EB57AB2E3BAB1D006A8D91 /* DailyMoodAppFinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9EB578A2E3BAB1B006A8D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EB57A02E3BAB1D006A8D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EB57AA2E3BAB1D006A8D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9EB57882E3BAB1B006A8D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EB579E2E3BAB1D006A8D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EB57A82E3BAB1D006A8D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9EB57A42E3BAB1D006A8D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9EB578B2E3BAB1B006A8D91 /* DailyMoodAppFinal */;
+			targetProxy = F9EB57A32E3BAB1D006A8D91 /* PBXContainerItemProxy */;
+		};
+		F9EB57AE2E3BAB1D006A8D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9EB578B2E3BAB1B006A8D91 /* DailyMoodAppFinal */;
+			targetProxy = F9EB57AD2E3BAB1D006A8D91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9EB57B62E3BAB1D006A8D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5VQ69JG6T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyMoodAppFinal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HakmonApps.DailyMoodAppFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9EB57B72E3BAB1D006A8D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5VQ69JG6T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyMoodAppFinal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HakmonApps.DailyMoodAppFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9EB57B82E3BAB1D006A8D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5VQ69JG6T2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9EB57B92E3BAB1D006A8D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5VQ69JG6T2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9EB57BB2E3BAB1D006A8D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5VQ69JG6T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HakmonApps.DailyMoodAppFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyMoodAppFinal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DailyMoodAppFinal";
+			};
+			name = Debug;
+		};
+		F9EB57BC2E3BAB1D006A8D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5VQ69JG6T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HakmonApps.DailyMoodAppFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyMoodAppFinal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DailyMoodAppFinal";
+			};
+			name = Release;
+		};
+		F9EB57BE2E3BAB1D006A8D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5VQ69JG6T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HakmonApps.DailyMoodAppFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyMoodAppFinal;
+			};
+			name = Debug;
+		};
+		F9EB57BF2E3BAB1D006A8D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5VQ69JG6T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HakmonApps.DailyMoodAppFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyMoodAppFinal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9EB57872E3BAB1B006A8D91 /* Build configuration list for PBXProject "DailyMoodAppFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EB57B82E3BAB1D006A8D91 /* Debug */,
+				F9EB57B92E3BAB1D006A8D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9EB57B52E3BAB1D006A8D91 /* Build configuration list for PBXNativeTarget "DailyMoodAppFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EB57B62E3BAB1D006A8D91 /* Debug */,
+				F9EB57B72E3BAB1D006A8D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9EB57BA2E3BAB1D006A8D91 /* Build configuration list for PBXNativeTarget "DailyMoodAppFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EB57BB2E3BAB1D006A8D91 /* Debug */,
+				F9EB57BC2E3BAB1D006A8D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9EB57BD2E3BAB1D006A8D91 /* Build configuration list for PBXNativeTarget "DailyMoodAppFinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EB57BE2E3BAB1D006A8D91 /* Debug */,
+				F9EB57BF2E3BAB1D006A8D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9EB57842E3BAB1B006A8D91 /* Project object */;
+}
