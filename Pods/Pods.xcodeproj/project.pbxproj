@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30A3CD6376E8619D27CCD4B56683FC53 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B091962E7C990E69FE57AF4F0B3EBC17 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-dummy.m */; };
+		371D0C107D70CEE810BAFED635E9E767 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F744E83E27E8710023C855C6CE9826 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80AE38FDA550C3EC40385601F760C7C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		B7681AE6AABD3F2E9D47B9300C1A9B77 /* Pods-DailyMoodAppFinal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDEEA9308025F0F4735F8E9A6BBFAC /* Pods-DailyMoodAppFinal-dummy.m */; };
+		BA5A158870132D0AE29C46FEFE6A88E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C729292AC812DCF81AD5FADF7C979E7C /* Pods-DailyMoodAppFinalTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A41070093D7E03C5E077E13A5D2D8C /* Pods-DailyMoodAppFinalTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAF35BC1E7AF55009D6E361306DB10CE /* Pods-DailyMoodAppFinalTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C8AA1F022B01FF14D5C83450A4E13C /* Pods-DailyMoodAppFinalTests-dummy.m */; };
+		EE2430A3A992832A3FA80096C3F811C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		EFD8E9DE85D220A5D622CDD3AB07EA6C /* Pods-DailyMoodAppFinal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB16B79E1123C854C69E6B3317ED3C8 /* Pods-DailyMoodAppFinal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FDE7BCAEBA2553F16CAAF72A2B8A97D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E61FB57D309D93133D758EA8B3E3BD;
+			remoteInfo = "Pods-DailyMoodAppFinal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1282E01E9BADD8CB96209CAA18916F3A /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C13F9E8DF778D84166EFCDCFB2ABA3C /* Pods-DailyMoodAppFinal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DailyMoodAppFinal.modulemap"; sourceTree = "<group>"; };
+		1EA6F5299AFC6801232165330480A9F8 /* Pods-DailyMoodAppFinalTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMoodAppFinalTests-Info.plist"; sourceTree = "<group>"; };
+		24864C2BEFFC4B725C5D54DE80FD93AF /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A8FE833F6960D7763DD2EABF915068E /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-Info.plist"; sourceTree = "<group>"; };
+		4677ADBD6573E7F5D3C0DC67D080F01A /* Pods-DailyMoodAppFinal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DailyMoodAppFinal-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F4E0CFE75AB126BF5AAFE4AC54B44FD /* Pods-DailyMoodAppFinalTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DailyMoodAppFinalTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52512088825AA4DB354741E14BE0017C /* Pods-DailyMoodAppFinalTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMoodAppFinalTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		574B0D90D55791748B4F94A3ED34647C /* Pods-DailyMoodAppFinalTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DailyMoodAppFinalTests.modulemap"; sourceTree = "<group>"; };
+		5CCDEEA9308025F0F4735F8E9A6BBFAC /* Pods-DailyMoodAppFinal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DailyMoodAppFinal-dummy.m"; sourceTree = "<group>"; };
+		67F744E83E27E8710023C855C6CE9826 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-umbrella.h"; sourceTree = "<group>"; };
+		70FC99727C2031FDA809F18B8040C29F /* Pods-DailyMoodAppFinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMoodAppFinalTests.release.xcconfig"; sourceTree = "<group>"; };
+		7557D663FCA566E184DF5B6E67C4E85D /* Pods-DailyMoodAppFinalTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DailyMoodAppFinalTests"; path = Pods_DailyMoodAppFinalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A311F265995F306C800F1AF3DC6FB9 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83BFA4DB2ABF2F050A4F8F6732B2C9CD /* Pods-DailyMoodAppFinal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMoodAppFinal-Info.plist"; sourceTree = "<group>"; };
+		849ACBE21FA5EAF15B4BD4BBCCF60782 /* Pods-DailyMoodAppFinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMoodAppFinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AB16B79E1123C854C69E6B3317ED3C8 /* Pods-DailyMoodAppFinal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DailyMoodAppFinal-umbrella.h"; sourceTree = "<group>"; };
+		9066AD1B6881ADE619E478F5DE9ED1E2 /* Pods-DailyMoodAppFinal */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DailyMoodAppFinal"; path = Pods_DailyMoodAppFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A41070093D7E03C5E077E13A5D2D8C /* Pods-DailyMoodAppFinalTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DailyMoodAppFinalTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC1202719A1B3AA6F6D7FD193477B1B4 /* Pods-DailyMoodAppFinal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DailyMoodAppFinal-acknowledgements.plist"; sourceTree = "<group>"; };
+		B091962E7C990E69FE57AF4F0B3EBC17 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-dummy.m"; sourceTree = "<group>"; };
+		B2402AE18F0DCAAAC6CE738214A49465 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B656C5AF79AF77082F6D76D633FABA2B /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.modulemap"; sourceTree = "<group>"; };
+		C16A7063BA802489C4BD0E38123DAFEF /* Pods-DailyMoodAppFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMoodAppFinal.release.xcconfig"; sourceTree = "<group>"; };
+		F2C8AA1F022B01FF14D5C83450A4E13C /* Pods-DailyMoodAppFinalTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DailyMoodAppFinalTests-dummy.m"; sourceTree = "<group>"; };
+		F9CCEB54D3E51215D4D671394F92E0B1 /* Pods-DailyMoodAppFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DailyMoodAppFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		FFE209BCB8DBBEB766B2F1878A6F9DA7 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests"; path = Pods_DailyMoodAppFinal_DailyMoodAppFinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C37815BD6C8E669BE5A135CDB9292E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AE38FDA550C3EC40385601F760C7C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D8D0D6E22432A7EF021DFFE89DABAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5A158870132D0AE29C46FEFE6A88E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A39265D96BAE2CAF2417C5FDC3DC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2430A3A992832A3FA80096C3F811C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0911A36A8C3F494D410A39BC9B47EEBC /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B656C5AF79AF77082F6D76D633FABA2B /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.modulemap */,
+				24864C2BEFFC4B725C5D54DE80FD93AF /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-acknowledgements.markdown */,
+				1282E01E9BADD8CB96209CAA18916F3A /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-acknowledgements.plist */,
+				B091962E7C990E69FE57AF4F0B3EBC17 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-dummy.m */,
+				3A8FE833F6960D7763DD2EABF915068E /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-Info.plist */,
+				67F744E83E27E8710023C855C6CE9826 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-umbrella.h */,
+				81A311F265995F306C800F1AF3DC6FB9 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.debug.xcconfig */,
+				B2402AE18F0DCAAAC6CE738214A49465 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.release.xcconfig */,
+			);
+			name = "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests";
+			path = "Target Support Files/Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests";
+			sourceTree = "<group>";
+		};
+		0E012BE441B3C39D0131A456BB8B6085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9066AD1B6881ADE619E478F5DE9ED1E2 /* Pods-DailyMoodAppFinal */,
+				FFE209BCB8DBBEB766B2F1878A6F9DA7 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests */,
+				7557D663FCA566E184DF5B6E67C4E85D /* Pods-DailyMoodAppFinalTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F6CB9262A1ABF0F3CD74A654F16FDC0 /* Pods-DailyMoodAppFinal */ = {
+			isa = PBXGroup;
+			children = (
+				1C13F9E8DF778D84166EFCDCFB2ABA3C /* Pods-DailyMoodAppFinal.modulemap */,
+				4677ADBD6573E7F5D3C0DC67D080F01A /* Pods-DailyMoodAppFinal-acknowledgements.markdown */,
+				AC1202719A1B3AA6F6D7FD193477B1B4 /* Pods-DailyMoodAppFinal-acknowledgements.plist */,
+				5CCDEEA9308025F0F4735F8E9A6BBFAC /* Pods-DailyMoodAppFinal-dummy.m */,
+				83BFA4DB2ABF2F050A4F8F6732B2C9CD /* Pods-DailyMoodAppFinal-Info.plist */,
+				8AB16B79E1123C854C69E6B3317ED3C8 /* Pods-DailyMoodAppFinal-umbrella.h */,
+				F9CCEB54D3E51215D4D671394F92E0B1 /* Pods-DailyMoodAppFinal.debug.xcconfig */,
+				C16A7063BA802489C4BD0E38123DAFEF /* Pods-DailyMoodAppFinal.release.xcconfig */,
+			);
+			name = "Pods-DailyMoodAppFinal";
+			path = "Target Support Files/Pods-DailyMoodAppFinal";
+			sourceTree = "<group>";
+		};
+		3BD2D4ED16F55E622757F9786C040688 /* Pods-DailyMoodAppFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				574B0D90D55791748B4F94A3ED34647C /* Pods-DailyMoodAppFinalTests.modulemap */,
+				4F4E0CFE75AB126BF5AAFE4AC54B44FD /* Pods-DailyMoodAppFinalTests-acknowledgements.markdown */,
+				52512088825AA4DB354741E14BE0017C /* Pods-DailyMoodAppFinalTests-acknowledgements.plist */,
+				F2C8AA1F022B01FF14D5C83450A4E13C /* Pods-DailyMoodAppFinalTests-dummy.m */,
+				1EA6F5299AFC6801232165330480A9F8 /* Pods-DailyMoodAppFinalTests-Info.plist */,
+				90A41070093D7E03C5E077E13A5D2D8C /* Pods-DailyMoodAppFinalTests-umbrella.h */,
+				849ACBE21FA5EAF15B4BD4BBCCF60782 /* Pods-DailyMoodAppFinalTests.debug.xcconfig */,
+				70FC99727C2031FDA809F18B8040C29F /* Pods-DailyMoodAppFinalTests.release.xcconfig */,
+			);
+			name = "Pods-DailyMoodAppFinalTests";
+			path = "Target Support Files/Pods-DailyMoodAppFinalTests";
+			sourceTree = "<group>";
+		};
+		787F239A5A16C80E6F4C34B23618D7C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F6CB9262A1ABF0F3CD74A654F16FDC0 /* Pods-DailyMoodAppFinal */,
+				0911A36A8C3F494D410A39BC9B47EEBC /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests */,
+				3BD2D4ED16F55E622757F9786C040688 /* Pods-DailyMoodAppFinalTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0E012BE441B3C39D0131A456BB8B6085 /* Products */,
+				787F239A5A16C80E6F4C34B23618D7C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		068419819091B9E4BA10EAE68DA9EDAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371D0C107D70CEE810BAFED635E9E767 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212E2AFAC73DA55F4DE58B805CD77AA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD8E9DE85D220A5D622CDD3AB07EA6C /* Pods-DailyMoodAppFinal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988A2B85D5B9CAD92109C83EB153E0FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C729292AC812DCF81AD5FADF7C979E7C /* Pods-DailyMoodAppFinalTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C6B5EA2AC2A53FD1D7C13ABEE1EC14F /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D13312E7C4226FF7FA44EA7DE7BD7D5 /* Build configuration list for PBXNativeTarget "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests" */;
+			buildPhases = (
+				068419819091B9E4BA10EAE68DA9EDAB /* Headers */,
+				30A377BA0BDE0086F007F266315E2D11 /* Sources */,
+				30D8D0D6E22432A7EF021DFFE89DABAC /* Frameworks */,
+				23DB7D697A41A49EA04B95B597838B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests";
+			productName = Pods_DailyMoodAppFinal_DailyMoodAppFinalUITests;
+			productReference = FFE209BCB8DBBEB766B2F1878A6F9DA7 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		55E61FB57D309D93133D758EA8B3E3BD /* Pods-DailyMoodAppFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4884BC62B81B3E72DD50AF4B52082C05 /* Build configuration list for PBXNativeTarget "Pods-DailyMoodAppFinal" */;
+			buildPhases = (
+				212E2AFAC73DA55F4DE58B805CD77AA0 /* Headers */,
+				E3D7C56A7BBEF4368A5EAFA15086B60D /* Sources */,
+				D0A39265D96BAE2CAF2417C5FDC3DC49 /* Frameworks */,
+				4C3880C5BCACD1493163BFFD8E9B8F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DailyMoodAppFinal";
+			productName = Pods_DailyMoodAppFinal;
+			productReference = 9066AD1B6881ADE619E478F5DE9ED1E2 /* Pods-DailyMoodAppFinal */;
+			productType = "com.apple.product-type.framework";
+		};
+		D74BD09BF104465F167CA32A5EAA76FF /* Pods-DailyMoodAppFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE55401B182E54976E02BCB47329D8C /* Build configuration list for PBXNativeTarget "Pods-DailyMoodAppFinalTests" */;
+			buildPhases = (
+				988A2B85D5B9CAD92109C83EB153E0FB /* Headers */,
+				368D63A66E73CDBFE4A753F818C9B3CF /* Sources */,
+				14C37815BD6C8E669BE5A135CDB9292E /* Frameworks */,
+				2809AB82EFB955F2DF1676179BC38306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26EFDEAC2AB059B5791B6A3AFB903BF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-DailyMoodAppFinalTests";
+			productName = Pods_DailyMoodAppFinalTests;
+			productReference = 7557D663FCA566E184DF5B6E67C4E85D /* Pods-DailyMoodAppFinalTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0E012BE441B3C39D0131A456BB8B6085 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E61FB57D309D93133D758EA8B3E3BD /* Pods-DailyMoodAppFinal */,
+				4C6B5EA2AC2A53FD1D7C13ABEE1EC14F /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests */,
+				D74BD09BF104465F167CA32A5EAA76FF /* Pods-DailyMoodAppFinalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23DB7D697A41A49EA04B95B597838B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2809AB82EFB955F2DF1676179BC38306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3880C5BCACD1493163BFFD8E9B8F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30A377BA0BDE0086F007F266315E2D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A3CD6376E8619D27CCD4B56683FC53 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368D63A66E73CDBFE4A753F818C9B3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF35BC1E7AF55009D6E361306DB10CE /* Pods-DailyMoodAppFinalTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D7C56A7BBEF4368A5EAFA15086B60D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7681AE6AABD3F2E9D47B9300C1A9B77 /* Pods-DailyMoodAppFinal-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26EFDEAC2AB059B5791B6A3AFB903BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DailyMoodAppFinal";
+			target = 55E61FB57D309D93133D758EA8B3E3BD /* Pods-DailyMoodAppFinal */;
+			targetProxy = 6FDE7BCAEBA2553F16CAAF72A2B8A97D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EA3E487E68F1542B9A28737290C8BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CCEB54D3E51215D4D671394F92E0B1 /* Pods-DailyMoodAppFinal.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMoodAppFinal/Pods-DailyMoodAppFinal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMoodAppFinal/Pods-DailyMoodAppFinal.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12652649F1D4E79E3BD3B964C87FB85E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16A7063BA802489C4BD0E38123DAFEF /* Pods-DailyMoodAppFinal.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMoodAppFinal/Pods-DailyMoodAppFinal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMoodAppFinal/Pods-DailyMoodAppFinal.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2518D317BB28F51595D48FC352306260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849ACBE21FA5EAF15B4BD4BBCCF60782 /* Pods-DailyMoodAppFinalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMoodAppFinalTests/Pods-DailyMoodAppFinalTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMoodAppFinalTests/Pods-DailyMoodAppFinalTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		78A4500A50A4860FE4DE60676A52C326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2402AE18F0DCAAAC6CE738214A49465 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests/Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests/Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A505618DF8BEE575636B495F2A937B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A311F265995F306C800F1AF3DC6FB9 /* Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests/Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests/Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F53FEDEB80EC7C428DBF705C625FF8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FC99727C2031FDA809F18B8040C29F /* Pods-DailyMoodAppFinalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DailyMoodAppFinalTests/Pods-DailyMoodAppFinalTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DailyMoodAppFinalTests/Pods-DailyMoodAppFinalTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4884BC62B81B3E72DD50AF4B52082C05 /* Build configuration list for PBXNativeTarget "Pods-DailyMoodAppFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA3E487E68F1542B9A28737290C8BEB /* Debug */,
+				12652649F1D4E79E3BD3B964C87FB85E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D13312E7C4226FF7FA44EA7DE7BD7D5 /* Build configuration list for PBXNativeTarget "Pods-DailyMoodAppFinal-DailyMoodAppFinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A505618DF8BEE575636B495F2A937B5 /* Debug */,
+				78A4500A50A4860FE4DE60676A52C326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE55401B182E54976E02BCB47329D8C /* Build configuration list for PBXNativeTarget "Pods-DailyMoodAppFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2518D317BB28F51595D48FC352306260 /* Debug */,
+				F53FEDEB80EC7C428DBF705C625FF8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_DailyMoodAppFinalTests {
+  umbrella header "Pods-DailyMoodAppFinalTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
