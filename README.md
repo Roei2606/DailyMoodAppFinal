@@ -149,18 +149,18 @@ DailyMoodAppFinal/
    git clone https://github.com/yourusername/DailyMoodFinal.git
    
 
-2.Open the project in Xcode:
+2. Open the project in Xcode:
    ```bash
     open DailyMoodAppFinal.xcodeproj
     
 
-3.Install Pods (if applicable):
+3. Install Pods (if applicable):
     ```bash
     pod install
 
-4.Replace GoogleService-Info.plist with your own from Firebase Console.
+4. Replace GoogleService-Info.plist with your own from Firebase Console.
 
-5.Run the app on a simulator or device.
+5. Run the app on a simulator or device.
 
 ---
 
