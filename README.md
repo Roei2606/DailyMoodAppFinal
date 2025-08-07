@@ -98,35 +98,50 @@ DailyMoodAppFinal/
 
 ## 🖼️ Screenshots
 
-### 🔐 Login & Registration
-![Login Screen]
-<img width="1125" height="2436" alt="login" src="https://github.com/user-attachments/assets/25e1c4b7-0f20-4644-abc8-16720a741f51" />
-![Register Screen]
-<img width="1125" height="2436" alt="register" src="https://github.com/user-attachments/assets/72707a1b-d26d-4c05-9a91-1744ea4496a2" />
-![Forgot Password Screen]
-<img width="1125" height="2436" alt="forgot_password" src="https://github.com/user-attachments/assets/f67eb8fa-deb5-4851-8652-bbf65cf33381" />
+## 🔐 Login & Registration
 
-### 👤 Profile
-![Profile Overview]
-<img width="1125" height="2436" alt="profile" src="https://github.com/user-attachments/assets/bf7cefe5-0be7-4c91-8f38-72e1416530b3" />
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/25e1c4b7-0f20-4644-abc8-16720a741f51" alt="Login Screen" width="45%" />
+  <img src="https://github.com/user-attachments/assets/72707a1b-d26d-4c05-9a91-1744ea4496a2" alt="Register Screen" width="45%" />
+</p>
 
-### 😃 Mood Tracker
-![Mood Selection]
-<img width="1125" height="2436" alt="mood_selection" src="https://github.com/user-attachments/assets/1939fcd8-a325-447c-80e7-879cde28adcb" />
-![Tip Shown]
-<img width="1125" height="2436" alt="mood_tip" src="https://github.com/user-attachments/assets/51246ed7-8bf3-4af7-b56a-9aaa3ae698d8" />
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/f67eb8fa-deb5-4851-8652-bbf65cf33381" alt="Forgot Password Screen" width="45%" />
+</p>
 
-### 📓 Journal
-![Journal Entry]
-<img width="1125" height="2436" alt="journal_entry" src="https://github.com/user-attachments/assets/5365d907-3e39-45a1-ac2f-07ecf4d06cac" />
-![Journal Swipe]
-<img width="1125" height="2436" alt="journal_swipe" src="https://github.com/user-attachments/assets/363e43b4-abb1-4a0b-81ac-4e470cc9419d" />
+---
 
-### 📅 Calendar Dialog
-![Calendar View]
-<img width="1125" height="2436" alt="calendar" src="https://github.com/user-attachments/assets/0e01030b-2b32-4327-9240-59e0a1186e17" />
+## 👤 Profile
 
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/bf7cefe5-0be7-4c91-8f38-72e1416530b3" alt="Profile Overview" width="45%" />
+</p>
 
+---
+
+## 😃 Mood Tracker
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/1939fcd8-a325-447c-80e7-879cde28adcb" alt="Mood Selection" width="45%" />
+  <img src="https://github.com/user-attachments/assets/51246ed7-8bf3-4af7-b56a-9aaa3ae698d8" alt="Tip Shown" width="45%" />
+</p>
+
+---
+
+## 📓 Journal
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/5365d907-3e39-45a1-ac2f-07ecf4d06cac" alt="Journal Entry" width="45%" />
+  <img src="https://github.com/user-attachments/assets/363e43b4-abb1-4a0b-81ac-4e470cc9419d" alt="Journal Swipe" width="45%" />
+</p>
+
+---
+
+## 📅 Calendar Dialog
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/0e01030b-2b32-4327-9240-59e0a1186e17" alt="Calendar View" width="45%" />
+</p>
 
 ---
 
