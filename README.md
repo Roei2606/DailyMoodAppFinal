@@ -103,9 +103,6 @@ DailyMoodAppFinal/
 <p float="left">
   <img src="https://github.com/user-attachments/assets/25e1c4b7-0f20-4644-abc8-16720a741f51" alt="Login Screen" width="20%" />
   <img src="https://github.com/user-attachments/assets/72707a1b-d26d-4c05-9a91-1744ea4496a2" alt="Register Screen" width="20%" />
-</p>
-
-<p float="left">
   <img src="https://github.com/user-attachments/assets/f67eb8fa-deb5-4851-8652-bbf65cf33381" alt="Forgot Password Screen" width="20%" />
 </p>
 
@@ -150,17 +147,16 @@ DailyMoodAppFinal/
 1. Clone this repo:
    ```bash
    git clone https://github.com/yourusername/DailyMoodFinal.git
-   ```bash
+   
 
 2.Open the project in Xcode:
    ```bash
     open DailyMoodAppFinal.xcodeproj
-    ```bash
+    
 
 3.Install Pods (if applicable):
     ```bash
     pod install
-    ```bash
 
 4.Replace GoogleService-Info.plist with your own from Firebase Console.
 
