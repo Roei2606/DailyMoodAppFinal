@@ -46,43 +46,50 @@
 
 ## 📁 Project Structure
 
+```
 DailyMoodAppFinal/
 ├── App/
-│ ├── AppDelegate.swift
-│ ├── LaunchScreen.storyboard
-│ └── SceneDelegate.swift
+│   ├── AppDelegate.swift
+│   ├── LaunchScreen.storyboard
+│   └── SceneDelegate.swift
 ├── Managers/
-│ └── FirebaseAuthManager.swift
+│   └── FirebaseAuthManager.swift
 ├── Models/
-│ ├── UserModel.swift
-│ └── JournalEntry.swift
+│   ├── UserModel.swift
+│   └── JournalEntry.swift
 ├── Modules/
-│ ├── Auth/
-│ │ ├── Login/LoginViewController.swift
-│ │ ├── Register/RegisterViewController.swift
-│ │ └── ForgotPassword/ForgotPasswordViewController.swift
-│ ├── Home/
-│ │ ├── Profile/ProfileViewController.swift
-│ │ ├── Mood/CurrentMoodViewController.swift
-│ │ ├── Journal/JournalDayViewController.swift
-│ │ ├── Journal/MoodJournalEntryViewController.swift
-│ │ ├── Journal/MoodJournalPageViewController.swift
-│ │ └── HomeViewController.swift
-│ └── Splash/
-│ └── SplashViewController.swift
+│   ├── Auth/
+│   │   ├── Login/
+│   │   │   └── LoginViewController.swift
+│   │   ├── Register/
+│   │   │   └── RegisterViewController.swift
+│   │   └── ForgotPassword/
+│   │       └── ForgotPasswordViewController.swift
+│   ├── Home/
+│   │   ├── Profile/
+│   │   │   └── ProfileViewController.swift
+│   │   ├── Mood/
+│   │   │   └── CurrentMoodViewController.swift
+│   │   ├── Journal/
+│   │   │   ├── JournalDayViewController.swift
+│   │   │   ├── MoodJournalEntryViewController.swift
+│   │   │   └── MoodJournalPageViewController.swift
+│   │   └── HomeViewController.swift
+│   └── Splash/
+│       └── SplashViewController.swift
 ├── Dialogs/
-│ └── CalendarDialogViewController.swift
+│   └── CalendarDialogViewController.swift
 ├── Resources/
-│ ├── Lottie/
-│ │ └── lottie_open_screen.json
-│ ├── Assets.xcassets
-│ ├── GoogleService-Info.plist
-│ ├── Info.plist
-│ └── Main.storyboard
+│   ├── Lottie/
+│   │   └── lottie_open_screen.json
+│   ├── Assets.xcassets
+│   ├── GoogleService-Info.plist
+│   ├── Info.plist
+│   └── Main.storyboard
 ├── Tests/
-│ ├── DailyMoodAppFinalTests/
-│ └── DailyMoodAppFinalUITests/
-
+│   ├── DailyMoodAppFinalTests/
+│   └── DailyMoodAppFinalUITests/
+```
 ---
 
 ## 🔧 Dependencies
