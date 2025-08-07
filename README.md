@@ -150,14 +150,17 @@ DailyMoodAppFinal/
 1. Clone this repo:
    ```bash
    git clone https://github.com/yourusername/DailyMoodFinal.git
+   ```bash
 
 2.Open the project in Xcode:
    ```bash
     open DailyMoodAppFinal.xcodeproj
+    ```bash
 
 3.Install Pods (if applicable):
     ```bash
     pod install
+    ```bash
 
 4.Replace GoogleService-Info.plist with your own from Firebase Console.
 
