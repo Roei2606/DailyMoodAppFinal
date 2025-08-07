@@ -99,23 +99,34 @@ DailyMoodAppFinal/
 ## 🖼️ Screenshots
 
 ### 🔐 Login & Registration
-![Login Screen](screenshots/login.png)
-![Register Screen](screenshots/register.png)
-![Forgot Password Screen](screenshots/forgot_password.png)
+![Login Screen]
+<img width="1125" height="2436" alt="login" src="https://github.com/user-attachments/assets/25e1c4b7-0f20-4644-abc8-16720a741f51" />
+![Register Screen]
+<img width="1125" height="2436" alt="register" src="https://github.com/user-attachments/assets/72707a1b-d26d-4c05-9a91-1744ea4496a2" />
+![Forgot Password Screen]
+<img width="1125" height="2436" alt="forgot_password" src="https://github.com/user-attachments/assets/f67eb8fa-deb5-4851-8652-bbf65cf33381" />
 
 ### 👤 Profile
-![Profile Overview](screenshots/profile.png)
+![Profile Overview]
+<img width="1125" height="2436" alt="profile" src="https://github.com/user-attachments/assets/bf7cefe5-0be7-4c91-8f38-72e1416530b3" />
 
 ### 😃 Mood Tracker
-![Mood Selection](screenshots/mood_selection.png)
-![Tip Shown](screenshots/mood_tip.png)
+![Mood Selection]
+<img width="1125" height="2436" alt="mood_selection" src="https://github.com/user-attachments/assets/1939fcd8-a325-447c-80e7-879cde28adcb" />
+![Tip Shown]
+<img width="1125" height="2436" alt="mood_tip" src="https://github.com/user-attachments/assets/51246ed7-8bf3-4af7-b56a-9aaa3ae698d8" />
 
 ### 📓 Journal
-![Journal Entry](screenshots/journal_entry.png)
-![Journal Swipe](screenshots/journal_swipe.png)
+![Journal Entry]
+<img width="1125" height="2436" alt="journal_entry" src="https://github.com/user-attachments/assets/5365d907-3e39-45a1-ac2f-07ecf4d06cac" />
+![Journal Swipe]
+<img width="1125" height="2436" alt="journal_swipe" src="https://github.com/user-attachments/assets/363e43b4-abb1-4a0b-81ac-4e470cc9419d" />
 
 ### 📅 Calendar Dialog
-![Calendar View](screenshots/calendar.png)
+![Calendar View]
+<img width="1125" height="2436" alt="calendar" src="https://github.com/user-attachments/assets/0e01030b-2b32-4327-9240-59e0a1186e17" />
+
+
 
 ---
 
