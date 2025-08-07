@@ -101,12 +101,12 @@ DailyMoodAppFinal/
 ## 🔐 Login & Registration
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/25e1c4b7-0f20-4644-abc8-16720a741f51" alt="Login Screen" width="45%" />
-  <img src="https://github.com/user-attachments/assets/72707a1b-d26d-4c05-9a91-1744ea4496a2" alt="Register Screen" width="45%" />
+  <img src="https://github.com/user-attachments/assets/25e1c4b7-0f20-4644-abc8-16720a741f51" alt="Login Screen" width="20%" />
+  <img src="https://github.com/user-attachments/assets/72707a1b-d26d-4c05-9a91-1744ea4496a2" alt="Register Screen" width="20%" />
 </p>
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/f67eb8fa-deb5-4851-8652-bbf65cf33381" alt="Forgot Password Screen" width="45%" />
+  <img src="https://github.com/user-attachments/assets/f67eb8fa-deb5-4851-8652-bbf65cf33381" alt="Forgot Password Screen" width="20%" />
 </p>
 
 ---
@@ -114,7 +114,7 @@ DailyMoodAppFinal/
 ## 👤 Profile
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/bf7cefe5-0be7-4c91-8f38-72e1416530b3" alt="Profile Overview" width="45%" />
+  <img src="https://github.com/user-attachments/assets/bf7cefe5-0be7-4c91-8f38-72e1416530b3" alt="Profile Overview" width="20%" />
 </p>
 
 ---
@@ -122,8 +122,8 @@ DailyMoodAppFinal/
 ## 😃 Mood Tracker
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/1939fcd8-a325-447c-80e7-879cde28adcb" alt="Mood Selection" width="45%" />
-  <img src="https://github.com/user-attachments/assets/51246ed7-8bf3-4af7-b56a-9aaa3ae698d8" alt="Tip Shown" width="45%" />
+  <img src="https://github.com/user-attachments/assets/1939fcd8-a325-447c-80e7-879cde28adcb" alt="Mood Selection" width="20%" />
+  <img src="https://github.com/user-attachments/assets/51246ed7-8bf3-4af7-b56a-9aaa3ae698d8" alt="Tip Shown" width="20%" />
 </p>
 
 ---
@@ -131,8 +131,8 @@ DailyMoodAppFinal/
 ## 📓 Journal
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/5365d907-3e39-45a1-ac2f-07ecf4d06cac" alt="Journal Entry" width="45%" />
-  <img src="https://github.com/user-attachments/assets/363e43b4-abb1-4a0b-81ac-4e470cc9419d" alt="Journal Swipe" width="45%" />
+  <img src="https://github.com/user-attachments/assets/5365d907-3e39-45a1-ac2f-07ecf4d06cac" alt="Journal Entry" width="20%" />
+  <img src="https://github.com/user-attachments/assets/363e43b4-abb1-4a0b-81ac-4e470cc9419d" alt="Journal Swipe" width="20%" />
 </p>
 
 ---
@@ -140,7 +140,7 @@ DailyMoodAppFinal/
 ## 📅 Calendar Dialog
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/0e01030b-2b32-4327-9240-59e0a1186e17" alt="Calendar View" width="45%" />
+  <img src="https://github.com/user-attachments/assets/0e01030b-2b32-4327-9240-59e0a1186e17" alt="Calendar View" width="20%" />
 </p>
 
 ---
