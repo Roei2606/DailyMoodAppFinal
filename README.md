@@ -1,0 +1,145 @@
+# 📱 DailyMoodFinal
+
+**DailyMoodFinal** is a modern iOS application that allows users to track and reflect on their mood daily through an engaging and minimal user interface. Built using Swift, Firebase, and Lottie animations, the app supports journal entries, mood analysis, calendar browsing, and personalized insights.
+
+---
+
+## ✨ Features
+
+### 🔐 Authentication
+- Firebase Email/Password Sign-Up and Login
+- Forgot password flow with phone number verification
+- Profile image selection and cropping using `TOCropViewController`
+
+### 🏠 Home
+- Central hub screen with tab navigation
+- Quick access to mood selection, journal, and profile
+
+### 🎭 Mood Tracker
+- Select a daily mood using expressive emojis
+- Display a tailored daily tip based on the selected mood
+- Cooldown timer between mood updates
+
+### 📓 Mood Journal
+- Guided journal entry with reflective questions
+- Horizontal swipe navigation by day (`UIPageViewController`)
+- Calendar dialog showing which days have entries ✅
+- Ability to jump to any recorded day
+
+### 👤 Profile
+- View mood history pie chart (last 24 hours)
+- See mood distribution (only emojis in chart, mood names in legend)
+- View active usage time
+- Navigate to Journal History screen
+- Logout with confirmation alert
+
+### 📊 Charts & Statistics
+- Built-in pie chart using `DGCharts`
+- Displays mood breakdown over the last 24 hours
+
+### 🌈 Design & Animations
+- Splash screen with Lottie animation (`lottie_open_screen`)
+- Dark mode and Light mode support
+- Modern, minimal, grayscale UI
+
+---
+
+## 📁 Project Structure
+
+DailyMoodAppFinal/
+├── App/
+│ ├── AppDelegate.swift
+│ ├── LaunchScreen.storyboard
+│ └── SceneDelegate.swift
+├── Managers/
+│ └── FirebaseAuthManager.swift
+├── Models/
+│ ├── UserModel.swift
+│ └── JournalEntry.swift
+├── Modules/
+│ ├── Auth/
+│ │ ├── Login/LoginViewController.swift
+│ │ ├── Register/RegisterViewController.swift
+│ │ └── ForgotPassword/ForgotPasswordViewController.swift
+│ ├── Home/
+│ │ ├── Profile/ProfileViewController.swift
+│ │ ├── Mood/CurrentMoodViewController.swift
+│ │ ├── Journal/JournalDayViewController.swift
+│ │ ├── Journal/MoodJournalEntryViewController.swift
+│ │ ├── Journal/MoodJournalPageViewController.swift
+│ │ └── HomeViewController.swift
+│ └── Splash/
+│ └── SplashViewController.swift
+├── Dialogs/
+│ └── CalendarDialogViewController.swift
+├── Resources/
+│ ├── Lottie/
+│ │ └── lottie_open_screen.json
+│ ├── Assets.xcassets
+│ ├── GoogleService-Info.plist
+│ ├── Info.plist
+│ └── Main.storyboard
+├── Tests/
+│ ├── DailyMoodAppFinalTests/
+│ └── DailyMoodAppFinalUITests/
+
+---
+
+## 🔧 Dependencies
+
+- [Firebase Auth](https://firebase.google.com/docs/auth)
+- [Firebase Firestore](https://firebase.google.com/docs/firestore)
+- [Firebase Storage](https://firebase.google.com/docs/storage)
+- [DGCharts (iOS Charts)](https://github.com/danielgindi/Charts)
+- [Lottie-iOS](https://github.com/airbnb/lottie-ios)
+- [TOCropViewController](https://github.com/TimOliver/TOCropViewController)
+
+---
+
+## 🖼️ Screenshots
+
+### 🔐 Login & Registration
+![Login Screen](screenshots/login.png)
+![Register Screen](screenshots/register.png)
+![Forgot Password Screen](screenshots/forgot_password.png)
+
+### 👤 Profile
+![Profile Overview](screenshots/profile.png)
+
+### 😃 Mood Tracker
+![Mood Selection](screenshots/mood_selection.png)
+![Tip Shown](screenshots/mood_tip.png)
+
+### 📓 Journal
+![Journal Entry](screenshots/journal_entry.png)
+![Journal Swipe](screenshots/journal_swipe.png)
+
+### 📅 Calendar Dialog
+![Calendar View](screenshots/calendar.png)
+
+---
+
+## 🚀 Getting Started
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/yourusername/DailyMoodFinal.git
+
+2.Open the project in Xcode:
+   ```bash
+    open DailyMoodAppFinal.xcodeproj
+
+3.Install Pods (if applicable):
+    ```bash
+    pod install
+
+4.Replace GoogleService-Info.plist with your own from Firebase Console.
+
+5.Run the app on a simulator or device.
+
+---
+
+### 🙋‍♂️ Author
+Developed by Roei Hakmon
+Feel free to reach out for questions, feedback, or collaboration.
+
